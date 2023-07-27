@@ -1,0 +1,83 @@
+main {
+
+    width: 100%;
+    min-height: 100vh;
+
+    // background-color: ;
+    // background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    .container {
+        padding: 5rem 0;
+
+        .box {
+            // width: 100%;
+            // width: 100vw;
+            // height: 100%;
+            // background-color: #C598F0;
+            overflow: hidden;
+
+            img {
+                transition: all 0.5s ease;
+
+            }
+
+        }
+
+        .box:hover {
+            cursor: pointer;
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    .background_img {
+        background-color: #C598F0;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../../assets/images/9c608a_3344256b3c824ec39122a8be857ab73a.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .content {
+            text-align: center;
+            color: #B1A8B9;
+        }
+
+    }
+
+    li {
+        color: #51405E;
+        font-size: 30px;
+    }
+}
+
+
+
+.txt-primary {
+    color: #AF79DF,
+}
+
+.txt-secondary {
+    color: #51405E,
+}
+
+.txt-success {
+    color: #B1A8B9,
+}
+
+.bgd-primary {
+    background-color: #AF79DF,
+}
+
+.bgd-secondary {
+    background-color: #51405E,
+}
+
+.bgd-success {
+    background-color: #B1A8B9,
+}

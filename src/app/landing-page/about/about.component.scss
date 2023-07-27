@@ -1,0 +1,49 @@
+main{
+    width: 100%;
+    min-height: 80vh;
+
+    .box{
+        width: 100%;
+        overflow: hidden;
+        
+        img{
+            transition: all 0.5s ease;
+        }
+    }
+    .box:hover{
+
+        img{
+            transform: scale(1.05);
+        }
+    }
+}
+
+h5::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #CF8FFF;
+    margin: 4px 10px;
+}
+
+
+
+.txt-primary{
+    color: #AF79DF,
+}
+.txt-secondary{
+    color: #51405E,
+}
+.txt-success{
+    color: #B1A8B9,
+}
+.bgd-primary{
+    background-color: #AF79DF,
+}
+.bgd-secondary{
+    background-color: #51405E,
+}
+.bgd-success{
+    background-color: #B1A8B9,
+}

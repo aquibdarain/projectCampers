@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fbfafc;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+// Variable overrides
+// $theme-colors: (
+//     primary: #AF79DF,
+//     secondary: #51405E,
+//     dark: #B1A8B9,
+//     // success: #33691e,
+//     // danger : #d62626,
+// );

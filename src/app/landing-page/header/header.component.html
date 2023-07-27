@@ -1,0 +1,27 @@
+<header class="bgd-secondary">
+    <div class="content">
+        <div class="container">
+            <div class="header">
+                <div class="left_part">
+                    Project Camper
+                </div>
+                <nav [class]="active_navbar == 'menu' ? 'navbar' : 'active_navbar navbar'">
+                    <ul class="nav_list text-uppercase">
+                        <li class="nav_list_link" routerLink="/landing_page/home" (click)="close_btn()">Home</li>
+                        <li class="nav_list_link" routerLink="/landing_page/about" (click)="close_btn()">About</li>
+                        <li class="nav_list_link" routerLink="/landing_page/services" (click)="close_btn()">Services</li>
+                        <!-- <li class="nav_list_link" routerLink="/landing_page/features" (click)="close_btn()">Features</li> -->
+                        <li class="nav_list_link" routerLink="/landing_page/contact" (click)="close_btn()">Contact</li>
+                    </ul>
+                </nav>
+                <div class="nav_btn">
+                    <i class="fa fa-bars menu_btn" *ngIf="this.menu_btn" (click)="menu_button()" style="font-size:24px"></i>
+                    <i class="fa fa-close close_btn" *ngIf="this.closeBtn" (click)="close_btn()" style="font-size:24px"></i>
+                </div>
+            </div>
+    
+        </div>
+
+    </div>
+
+</header>
